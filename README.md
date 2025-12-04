@@ -1,4 +1,4 @@
-# 🚚 Delivery Management System
+# 🚚 Delivery Management System- Zap-shift
 
 A complete parcel delivery platform featuring **Admin**, **Rider**, and **User** dashboards with real-time tracking, role-based authentication, parcel management, analytics, and a modern UI built using React, TailwindCSS, Firebase, and more.
 
@@ -19,23 +19,20 @@ A complete parcel delivery platform featuring **Admin**, **Rider**, and **User**
 - Parcel tracking & status updates
 - Revenue & transactions overview
 - Recharts analytics dashboard
-- Manage announcements & roles
-- Attendance & batch management (optional)
+- Manage roles
+
 
 ### 🚴 Rider Dashboard
+-apply to be a rider 
 - View assigned parcels
 - Update delivery status (Picked → On the Way → Delivered)
-- Live delivery route using Leaflet map
-- Daily earnings summary
-- Rider profile management
+
 
 ### 👤 User Dashboard
 - Create parcel orders
 - Real-time parcel tracking
 - Cancel or update pending orders
 - Delivery history & payment status
-- Notifications (toast + email)
-- User profile management
 
 ---
 
@@ -54,9 +51,9 @@ A complete parcel delivery platform featuring **Admin**, **Rider**, and **User**
 - React Hook Form
 
 ### **Backend**
-*(If using Firebase or custom Node backend — update as needed)*
+
 - Firebase Authentication
-- Firebase Firestore / Realtime DB
+- MongoDB
 
 ### **Maps**
 - Leaflet
